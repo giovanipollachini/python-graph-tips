@@ -21,7 +21,8 @@ cd My/virtual/env/here
 virtualenv name_of_virtual_env
 ```
 ```terminal
-# Activate virtual environment
+# Activate virtual environment (cd to the directory 
+# in which the virtual environment was installed)
 source name_of_virtual_env/bin/activate
 # Dectivate virtual environment
 deactivate
