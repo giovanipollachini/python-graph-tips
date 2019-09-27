@@ -101,7 +101,7 @@ options_circular = {
    # Check NetworkX Reference Chapter 10. Drawing for more options
 nx.draw_circular(G,**options_circular)
 plt.axis('equal')
-plt.savefig('graph_from_adjacency_matrix_circular.png', format='png')
+plt.savefig('graph_from_empty_circular.png', format='png')
 plt.clf()
 plt.cla()
 plt.close()
@@ -123,7 +123,7 @@ options_custom = {
    'with_labels' : True}
    # Check NetworkX Reference Chapter 10. Drawing for more options
 nx.draw(G,**options_custom)
-plt.savefig('graph_from_adjacency_matrix_custom.png', format='png')
+plt.savefig('graph_from_empty_custom.png', format='png')
 plt.clf()
 plt.cla()
 plt.close()
