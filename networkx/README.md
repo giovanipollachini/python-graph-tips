@@ -9,18 +9,18 @@ References: [https://networkx.github.io/](https://networkx.github.io/)
 # Install NetworkX
 
 On terminal, type:
-```terminal
+```shell
 pip install networkx
 ```
 If you prefer, install it on a virtual environment:
-```terminal
+```shell
 # Move to the directory you want to use to create the virtual environment
 # (often created inside the home directory)
 cd My/virtual/env/here
 # Create virtual environment 
 virtualenv name_of_virtual_env
 ```
-```terminal
+```shell
 # Activate virtual environment (cd to the directory 
 # in which the virtual environment was installed)
 source name_of_virtual_env/bin/activate
