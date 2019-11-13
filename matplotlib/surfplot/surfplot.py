@@ -154,7 +154,7 @@ for j in range(0,my):
 # https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html#getting-started
 
 
-# 3-D Wireframe Graph
+# 3-D Surface Plot
 # Create figure
 fig_surf = plt.figure()
 ax_surf = fig_surf.gca(projection='3d')
