@@ -162,7 +162,7 @@ ax_grid.set_xlabel('x (m)')
 ax_grid.set_ylabel('y (m)')
 ax_grid.set_zlabel('T (°C)')
 plt.title('Solution for Heat Equation')
-# Create grid plot
+# Create wireframe plot
 grid = ax_grid.plot_wireframe(x, y, T_grid, rstride=1, cstride=1)
 # Save figure in file
 plt.savefig('wireframe.png')
