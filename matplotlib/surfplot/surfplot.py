@@ -162,7 +162,7 @@ ax_surf.set_xlabel('x (m)')
 ax_surf.set_ylabel('y (m)')
 ax_surf.set_zlabel('T (°C)')
 plt.title('Solution for Heat Equation')
-# Create grid plot
+# Create surface plot
 surf = ax_surf.plot_surface(x, y, T_grid, cmap=cm.coolwarm,
                        linewidth=0, antialiased=False)
 fig_surf.colorbar(surf, shrink=0.8, aspect=5, label='T (°C)')
