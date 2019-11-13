@@ -162,7 +162,7 @@ ax_heatmap = fig_heatmap.add_subplot(1,1,1)
 plt.title('Solution for Heat Equation')
 plt.xlabel('x (m)')
 plt.ylabel('y (m)')
-# Create grid plot
+# Create heatmap
 heatmap = plt.imshow(T_grid, extent=extent, cmap=cm.coolwarm, origin='lower')
 plt.colorbar(heatmap, shrink=0.6, aspect=5, label='T (°C)')
 # Save figure in file
